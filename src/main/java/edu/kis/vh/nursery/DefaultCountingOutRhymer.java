@@ -4,6 +4,11 @@ public class DefaultCountingOutRhymer {
 
     final private int SIZE = 12;
     final private int EMPTY_STACK_VALUE = -1;
+
+    public int getTotal() {
+        return total;
+    }
+
     private int total = EMPTY_STACK_VALUE;
     private final int[] numbers = new int[SIZE];
 
