@@ -34,3 +34,4 @@ public class Node {
 		this.next = next;
 	}
 }
+// Wszystkie settery są używane
