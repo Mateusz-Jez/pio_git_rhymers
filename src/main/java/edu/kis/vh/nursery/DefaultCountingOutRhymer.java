@@ -5,6 +5,7 @@ public class DefaultCountingOutRhymer {
     final private int SIZE = 12;
     final private int EMPTY_STACK_VALUE = -1;
 
+    // TODO: usunięcie nieużywanej metody
     public int getTotal() {
         return total;
     }

@@ -1,5 +1,11 @@
 package edu.kis.vh.nursery;
 
+/**
+ * klasa HanoiRhymer dziedziczy z klasy DefaultCountingOutRhymer
+ * atrybutem klasy jest zmienna totalRejected typu int
+ * metoda reportRejected nie przyjmuje żadnych parametrów i zwraca wartośc int
+ * nadpisana metoda countIn przyjmuje zmienną typu int i nic nie zwraca
+ */
 public class HanoiRhymer extends DefaultCountingOutRhymer {
 
     private int totalRejected = 0;
