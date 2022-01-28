@@ -39,8 +39,10 @@ public class IntLinkedList {
 // Wszystkie settery są używane
 
 	private Node last;
+	// TODO: zmienna nie jest używana
 	private int i;
 
+	// TODO: metoda nie jest używana
 	public void push(int i) {
 		if (last == null)
 			last = new Node(i);
@@ -55,16 +57,19 @@ public class IntLinkedList {
 		return last == null;
 	}
 
+	// TODO: metoda zawsze zwraca 'false' oraz nie jest używana
 	public boolean isFull() {
 		return false;
 	}
 
+	// TODO: metoda nie jest używana
 	public int top() {
 		if (isEmpty())
 			return -1;
 		return last.getValue();
 	}
 
+	// TODO: metoda nie jest używana
 	public int pop() {
 		if (isEmpty())
 			return -1;
